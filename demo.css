@@ -1,0 +1,47 @@
+#food{
+    
+    border: 2px solid ;
+    background-color: blueviolet;
+    margin: 5px;
+    
+}
+.a1{
+    color: aliceblue;
+   margin: 10px;
+    
+}
+#dress{
+    border: 2px solid ;
+    background-color: chartreuse;
+    margin: 5px;
+    max-width: max-content;
+}
+.a2{
+    color: aliceblue;
+    margin: 10px;
+}
+#shelter{
+    border: 2px solid ;
+    background-color:aquamarine;
+    margin: 5px;
+}
+.a3{
+    color: aliceblue;
+    margin: 10px;
+}
+#water{
+    border: 2px solid ;
+    background-color: darkgoldenrod;
+    margin: 5px;
+}
+.a4{
+    color: aliceblue;
+    margin: 10px;
+}
+.imp{
+    display: flex;
+   padding: 50px;
+}
+p{
+    text-align: center;
+}

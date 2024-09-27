@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+    background-color:
+}
+.navbar{
+    list-style-type: none;
+    display:inline-flex;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition:all 0.5s;
+    }
+.navbar:hover{
+    color: rgb(248, 255, 205);
+    font-size: 20px;
+}
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    background-color: rgb(54, 56, 99);
+    height: max-content;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    /* padding-top: 20px;
+    padding-bottom: 40px; */
+    padding:20px;
+}
+.dropbtn {
+    background-color: rgb(90, 115, 255);
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #a7cfe9;
+  }
+  
+  .show {display: block;}
+  .navbar1{
+    list-style-type: none;
+    display:inline-flex;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding left:  30px;
+    padding right: 30px;
+    margin-bottom: 10px;
+    transition:all 0.5s;
+    }
+.navbar1:hover{
+    color: rgb(132, 150, 16);
+    font-size: 20px;
+}
+.nav1{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 100px;
+    background-color: rgb(62, 91, 172);
+    height: max-content;
+}
+.navigation1{
+    background-color: #a7cfe9;
+}
+.marquee{
+    background-color: #ddd;
+}
+.bigimg{
+    color: rgb(255, 255, 255);
+    background-image: url(https://www.annauniv.edu/images/main-slider/slide1.jpeg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav3{
+    background-image: url(https://images.unsplash.com/photo-1557682268-e3955ed5d83f?q=80&w=882&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 10px;
+    color: aliceblue;
+    z-index: 999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    left: 0;
+    position: fixed;
+    display: inline-block;
+    top: 55%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.navbar3{
+    padding: 10px;
+    transition: all 0.5s;
+}
+.navbar3:hover{
+    font-size: 15px;
+}
+.nav4{
+    position: fixed;
+    top: 55%;
+    right: 0;
+    list-style-type: none;
+    padding-left: 0;
+    z-index: 10;
+    margin: 0;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.navbar6{
+    background: linear-gradient(to bottom, #7e22ae 0%, #d58141 100%);
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    border: #7e22ae;
+    border-radius: 10px;
+}
+.navbar5{
+    background:black;
+    color: aliceblue;
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    border: #7e22ae;
+    border-radius: 10px;
+}
+.navbar4{
+    background: red;
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    border: #7e22ae;
+    border-radius: 10px;
+}
